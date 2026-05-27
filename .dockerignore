@@ -1,0 +1,36 @@
+# Environment (contains API key)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# ChromaDB & SQLite persistence (mounted as volume at runtime)
+data/chroma/
+data/*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
